@@ -1,0 +1,24 @@
+{
+    "name": "@elasticio/baggam-demo-nodejs",
+    "version": "0.0.4",
+    "description": "My demo component on elastic.io",
+    "scripts": {
+        "test": "exit 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:elasticio/baggam-demo-nodejs.git"
+    },
+    "author": "elastic.io GmbH",
+    "license": "BSD-2-Clause",
+    "engines": {
+        "node": "6.4.0"
+    },
+    "dependencies": {
+        "elasticio-sailor-nodejs": "2.0.1",
+        "elasticio-node": "0.0.7",
+        "co": "4.6.0",
+        "request": "2.76.0",
+        "request-promise": "4.1.1"
+    }
+}
