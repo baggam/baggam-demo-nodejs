@@ -1,15 +1,15 @@
 {
     "type": "object",
     "properties": {
-        "greeting": {
+        "upstreamData": {
             "type": "string",
             "required": true,
-            "title": "Greeting"
+            "title": "Upstream Data"
         },
-        "originalGreeting": {
+        "original_upstreamData": {
             "type": "string",
             "required": true,
-            "title": "Original Greeting"
+            "title": "Original Upstream Data"
         }
     }
 }

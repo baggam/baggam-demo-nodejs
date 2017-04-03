@@ -12,22 +12,22 @@
         }
     },
     "triggers": {
-        "getHello": {
-            "main": "./lib/triggers/getHello.js",
+        "getupstreamData": {
+            "main": "./lib/triggers/getData.js",
             "type": "polling",
-            "title": "Query Hello",
+            "title": "Demo Trigger",
             "metadata": {
-                "out": "./lib/schemas/getHello.out.json"
+                "out": "./lib/schemas/getupstreamData.out.json"
             }
         }
     },
     "actions": {
-        "updateHello": {
-            "main": "./lib/actions/updateHello.js",
-            "title": "Update Hello",
+        "updateupstreamData": {
+            "main": "./lib/actions/updateData.js",
+            "title": "Demo Action",
             "metadata": {
-                "in": "./lib/schemas/updateHello.in.json",
-                "out": "./lib/schemas/updateHello.out.json"
+                "in": "./lib/schemas/updateupstreamData.in.json",
+                "out": "./lib/schemas/updateupstreamData.out.json"
             }
         }
     }
