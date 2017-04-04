@@ -6,10 +6,10 @@
             "required": true,
             "title": "Upstream Data"
         },
-		"id": {
-              "type": "numeric",
+		"Custname": {
+              "type": "string",
               "required": true,
-              "title": "Categry ID"
+              "title": "Customer Name"
             }
     }
 }
