@@ -5,11 +5,6 @@
             "type": "string",
             "required": true,
             "title": "Upstream Data"
-        },
-		custname": {
-            "type": "string",
-            "required": true,
-            "title": "Customer Name"
         }
     }
 }
